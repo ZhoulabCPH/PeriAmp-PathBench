@@ -1,4 +1,4 @@
-# VPC
+# PeriAmp-PathBench
 
 Research code for whole-slide image tiling, pathology encoder fine-tuning,
 multiple-instance learning (MIL), ensemble evaluation, and model interpretation.
