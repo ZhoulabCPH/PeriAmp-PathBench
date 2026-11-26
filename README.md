@@ -55,7 +55,6 @@ The benchmark uses 12 pathology foundation models as frozen feature extractors, 
 
 | Component |  Source |
 | --- | --- |
-| Prov-GigaPath (tiling code) | https://github.com/prov-gigapath/prov-gigapath |
 | ExPLoRA | https://github.com/samar-khanna/ExPLoRA |
 | DINOv2 | https://github.com/facebookresearch/dinov2 |
 | CLAM | https://github.com/mahmoodlab/CLAM |
