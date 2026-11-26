@@ -1,0 +1,44 @@
+{
+  "train_virchow2_ddp": {
+    "output_dir": "outputs/virchow2_explora_tar",
+    "safetensors_path": "weights/model.safetensors",
+    "config_json": "virchow2/configs/virchow2_config.json",
+    "heartbeat_every": 30,
+    "epochs": 20,
+    "batch_size_per_gpu": 64,
+    "accumulation_steps": 8,
+    "lr": 0.0002,
+    "num_workers": 8,
+    "seed": 42,
+    "log_every": 10,
+
+    "amp_dtype": "fp16",
+    "grad_ckpt": true,
+
+    "lora_rank": 16,
+    "train_last_n_blocks": 2,
+
+    "koleo_weight": 0.1,
+    "ibot_weight": 1.0,
+    "dino_weight": 1.0,
+
+    "mask_ratio_min": 0.1,
+    "mask_ratio_max": 0.5,
+    "mask_probability": 0.5,
+
+    "ema_base": 0.994,
+    "centering": "sinkhorn_knopp",
+    "teacher_temp": 0.04,
+
+    "resume": false,
+    "resume_path": "",
+
+    "tar_index": "data/tar_shards/internal/index.jsonl",
+    "tar_shards_root": "data/tar_shards/internal",
+    "tar_max_samples": null,
+
+    "data_roots": null
+  }
+}
+
+

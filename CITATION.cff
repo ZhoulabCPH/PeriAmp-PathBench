@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use VPC in your research, please cite it using the metadata below."
+type: software
+title: "VPC"
+authors:
+  - name: "VPC contributors"
+license: MIT

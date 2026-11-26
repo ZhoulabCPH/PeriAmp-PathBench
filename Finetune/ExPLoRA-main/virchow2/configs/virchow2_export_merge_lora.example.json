@@ -1,0 +1,11 @@
+{
+  "export_merge_lora": {
+    "checkpoint": "weights/virchow2_checkpoint.pth",
+    "output": "./outputs/virchow2_explora/vit_huge_patch14_224_merged_e1.pth",
+    "format": "pth",
+    "lora_rank": 16,
+    "use_teacher": true
+  }
+}
+
+

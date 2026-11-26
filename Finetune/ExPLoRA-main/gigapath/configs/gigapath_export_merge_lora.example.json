@@ -1,0 +1,9 @@
+{
+  "export_merge_lora_gigapath": {
+    "checkpoint": "weights/gigapath_checkpoint.pth",
+    "output": "./outputs/gigapath_explora/vit_giant_patch14_dinov2_merged.pth",
+    "format": "pth",
+    "lora_rank": 16,
+    "use_teacher": true
+  }
+}

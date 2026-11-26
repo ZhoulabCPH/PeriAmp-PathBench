@@ -1,0 +1,20 @@
+{
+  "get_feature_gigapath_finetuned": {
+    "merged_backbone": "outputs/gigapath_explora/vit_giant_patch14_dinov2_merged.pth",
+
+    "center_roots": [
+      "internal=data/patches/internal",
+      "cohort_a=data/patches/cohort_a",
+      "cohort_b=data/patches/cohort_b"
+    ],
+    "save_path": "outputs/features/gigapath",
+
+    "batch_size": 64,
+    "num_workers": 4,
+    "device": "cuda:0",
+    "amp": "fp16",
+
+    "image_size": 224,
+    "file_exts": ".jpg,.jpeg,.png,.tiff,.bmp"
+  }
+}
